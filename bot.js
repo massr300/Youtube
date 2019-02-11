@@ -85,12 +85,12 @@ m.sendMessage(args)
        $adminbc | برودكاست عادي
 
        ** `)
-   message.author.sendEmbed(embed)
+   message.author.sendEmbed(embed) 
    
    }
    });
 
-const developers = ["472413769700474901","id"]
+const developers = ["434414586960150539","id"]
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
       if (!developers.includes(message.author.id)) return;
